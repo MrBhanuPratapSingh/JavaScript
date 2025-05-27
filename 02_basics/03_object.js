@@ -1,3 +1,5 @@
+//OBJECT Literals
+
 const mySym=Symbol("key1")
 
 const MyObject={  //object
