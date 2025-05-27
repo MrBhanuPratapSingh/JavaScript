@@ -36,3 +36,30 @@ const source1 = { b1: 4, c1: 5 };
 // Expected output: true
 const obj={...target,...source,...source1}
 console.log(obj);//{ a: 1, b: 4, c: 5, b1: 4, c1: 5 }
+
+
+//      Object DeStructure
+const course ={
+      bookName:"gyanGanga",
+      price:"999",
+      bookTeacher:"bhanu"
+} 
+const {bookTeacher:Teacher} =course
+//console.log(bookTeacher);
+console.log(Teacher);
+
+//API formate (json formate)
+// {
+//       "bookName1":"gyanGanga",
+//       "price1":999,            //in number no use(" ")
+//       "bookTeacher1":"bhanu"
+//       "isgood":false
+
+// }
+
+//  or
+// [
+//   {}
+//   {}
+//   {}
+// ]
